@@ -16,7 +16,7 @@ from application.forms import EnterDBInfo, RetrieveDBInfo
 # application = app
 app.debug = True
 # change this to your own value
-app.secret_key = 'cC1YCIWOj9GgWspgNEo2'
+# app.secret_key = 'cC1YCIWOj9GgWspgNEo2'
 
 
 @app.route('/', methods=['GET', 'POST'])
