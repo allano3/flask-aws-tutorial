@@ -14,7 +14,7 @@ from application.forms import EnterDBInfo, RetrieveDBInfo
 
 # Elastic Beanstalk initalization
 # application = app
-app.debug = True
+app.debug = False
 # change this to your own value
 # app.secret_key = 'cC1YCIWOj9GgWspgNEo2'
 
@@ -50,4 +50,5 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    # app.run(host='0.0.0.0')
+    app.run_server(host="0.0.0.0")
